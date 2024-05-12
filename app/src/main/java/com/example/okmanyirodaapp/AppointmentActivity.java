@@ -77,50 +77,6 @@ public class AppointmentActivity extends AppCompatActivity {
         finish();
     }
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        super.onCreateOptionsMenu(menu);
-        getMenuInflater().inflate(R.menu.appointment_menu, menu);
-        return true;
-
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        int itemId = item.getItemId();
-
-        if (itemId == R.id.logoutButton) {
-            Log.d(LOG_TAG, "Logout clicked!");
-            FirebaseAuth.getInstance().signOut();
-            finish();
-            return true;
-        } else if (itemId == R.id.settingsButton) {
-            Log.d(LOG_TAG, "Setting clicked!");
-            FirebaseAuth.getInstance().signOut();
-            finish();
-            return true;
-        } else if (itemId == R.id.appointments) {
-            Log.d(LOG_TAG, "Booked appointments clicked!");
-            return true;
-        } else {
-            return super.onOptionsItemSelected(item);
-        }
-    }
-
-    @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
-        final MenuItem alertMenuItem = menu.findItem(R.id.appointments);
-        FrameLayout rootView = (FrameLayout) alertMenuItem.getActionView();
-
-        rootView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onOptionsItemSelected(alertMenuItem);
-            }
-        });
-        return super.onPrepareOptionsMenu(menu);
-    }
     //Lifecycle hook
     @Override
     protected void onDestroy() {
