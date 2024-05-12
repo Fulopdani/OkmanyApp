@@ -125,6 +125,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        //Notification
         NotificationHelper.showNotification(MainActivity.this, "Bejelentkezés", "Sikeres bejelentkezés!");
 
     }
