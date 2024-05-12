@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">OkmanyirodaApp</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="email_address">E-mail cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="open_location">Helyszín megtekintése</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="guest_login">Bejelentkezés vendégként</string>
+    <string name="title">Szabad időpont</string>
+    <string name="bookButton">Időpont foglalása</string>
+    <string name="date_placeholder">Dátum</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="settings">Beállítások</string>
+    <string name="appointments">Időpontjaim</string>
+    <string name="name">Név</string>
+    <string name="back">Vissza</string>
+    <string name="main_title">Időpontfoglalás</string>
+
+    <array name="item_dates">
+        <item>2024.05.30. 12:00</item>
+        <item>2024.05.30. 12:30</item>
+        <item>2024.05.30. 13:00</item>
+        <item>2024.05.30. 13:30</item>
+        <item>2024.05.30. 14:00</item>
+        <item>2024.05.30. 14:30</item>
+        <item>2024.05.30. 15:00</item>
+        <item>2024.05.30. 15:30</item>
+        <item>2024.05.30. 16:00</item>
+        <item>2024.05.30. 16:30</item>
+    </array>
+
+</resources>

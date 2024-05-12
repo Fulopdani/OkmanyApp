@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "161884645166",
+    "project_id": "okmanyiroda-d4fb2",
+    "storage_bucket": "okmanyiroda-d4fb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161884645166:android:ddc18937d7bf2ee74cfcbf",
+        "android_client_info": {
+          "package_name": "com.example.okmanyirodaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4YbDi65hRBQ5g8DT2h-ObGyod2_iLbVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
