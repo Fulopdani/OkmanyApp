@@ -53,10 +53,8 @@ public class RegisterActivity extends AppCompatActivity {
         passwordConfirmEditText = findViewById(R.id.passwordAgainEditText);
 
         preferences = getSharedPreferences(PREF_KEY, MODE_PRIVATE);
-        String username = preferences.getString("username", "");
         String password = preferences.getString("password", "");
 
-        usernameEditText.setText(username);
         passwordEditText.setText(password);
         passwordConfirmEditText.setText(password);
 

@@ -163,7 +163,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         SharedPreferences.Editor editor = preferences.edit();
-        editor.putString("username", usernameET.getText().toString());
         editor.putString("password", passwordET.getText().toString());
         editor.apply();
     }
