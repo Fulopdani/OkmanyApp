@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         boolean isConnected = activeNetwork != null && activeNetwork.isConnectedOrConnecting();
 
         if (!isConnected) {
+
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setMessage("Az internetkapcsolat ki van kapcsolva. Engedélyezze, hogy folytathassa az alkalmazás használatát?")
                     .setTitle("Nincs internetkapcsolat")
@@ -86,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
                     });
             builder.create().show();
         }
-
     }
 
     //internet hozzáférés
